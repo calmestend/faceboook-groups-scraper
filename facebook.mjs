@@ -1,7 +1,6 @@
 import { gotScraping } from 'got-scraping';
 import * as fs from "fs";
 import * as cheerio from "cheerio";
-import { throws } from 'assert';
 
 
 const fetchLsd = async (group) => {
